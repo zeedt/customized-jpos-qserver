@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+
+<mux class="org.jpos.q2.iso.QMUX" logger="Q2" name="jPOS-MYMUX">
+    <in>jpos2-receive</in>
+    <out>jpos2-send</out>
+    <ready>jpos2-channel.ready</ready>
+
+</mux>
+
